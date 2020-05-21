@@ -1,0 +1,40 @@
+.taskList {
+  /* margin-bottom: 200px; */
+}
+
+.task {
+  background-color: antiquewhite;
+  width: 80%;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.button {
+  font-size: 14px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: blue;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.task .name {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.task .id {
+  color: firebrick;
+  font-style: italic;
+  font-size: 14px;
+}

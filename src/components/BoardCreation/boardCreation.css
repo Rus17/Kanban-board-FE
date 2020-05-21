@@ -1,0 +1,15 @@
+.newBoard {
+  background-color: #c6c6c6;
+  width: 200px;
+  height: 70px;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.newBoard div {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}

@@ -1,0 +1,13 @@
+.columns {
+  display: flex;
+  align-items: baseline;
+}
+
+.column {
+  width: 300px;
+  min-height: 100px;
+  border: 1px black solid;
+  margin-right: 20px;
+  position: relative;
+  background-color: #a0a0a0;
+}

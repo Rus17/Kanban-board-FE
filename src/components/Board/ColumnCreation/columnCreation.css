@@ -1,0 +1,16 @@
+.newColumn {
+  background-color: darkgrey;
+  border: 1px solid black;
+  margin-right: 20px;
+  padding: 10px;
+  /* flex-basis: 180px; */
+  flex-shrink: 0;
+  /* height: 20px; */
+  cursor: pointer;
+}
+
+.newColumn h3 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+.newTask {
+  margin-left: 20px;
+}
+
+.newTask span {
+  cursor: pointer;
+  color: blue;
+}
+
+.newTask span:hover {
+  text-decoration: underline;
+}
+
+.newTask input {
+  width: 80%;
+  padding: 0 10px;
+}

@@ -1,0 +1,43 @@
+.inputRename {
+  width: 100%;
+}
+.inputRename .name {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  height: 34px;
+}
+
+.inputRename input {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.buttonRemove,
+.buttonRename {
+  font-size: 14px;
+  color: blue;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.buttonContainer .buttonRemove:hover {
+  text-decoration: underline;
+}
+.buttonContainer .buttonRename:hover {
+  text-decoration: underline;
+}
+
+.button span {
+  cursor: pointer;
+}
